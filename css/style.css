@@ -1,0 +1,99 @@
+/* font-family: "Open Sans", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+
+}
+.main-nav .navbar-brand img{
+    width: 150px;
+}
+.main-nav{
+    padding: 0;
+}
+
+.main-nav .navbar-brand{
+    position: relative;
+    padding: 0 !important;
+}
+small{
+    font-size: .875em;
+}
+.main-nav .navbar-brand .logo--caption{
+    position: absolute;
+    font-size: 8px;
+    font-weight: 700;
+    bottom: -8px;
+    right: 0px;
+    font-family: "Montserrat";
+    color: #00a651;
+    width: 150px;
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;   
+}
+.main-nav .nav-link{
+    font-family: "Open Sans", sans-serif;
+    padding: 16px 15px !important;
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: 400;
+    
+
+}
+.nav-item{
+    /* display: block; */
+
+
+}
+.main-nav .nav-link.active{
+    background-color: #f9f9f9;
+    border-bottom: 2px solid rgb(255, 129, 57);
+    font-weight: 600;
+
+}
+.nav-item .nav-link{
+    
+    position: relative;
+
+}
+.nav-item .nav-link::after{
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    background-color: rgb(255, 129, 57);
+    width: 0%;
+    height: 3px;
+    transition: 0.4s ease-in-out;
+
+}
+.nav-item:hover .nav-link::after{
+    width: 100%;
+}
+.nav-item .nav-link:hover{
+    background-color: #f9f9f9;
+
+}
+
+
+
+
+
+.nav-btn{
+    font-size: 17px;
+    font-weight: 700;
+    padding:  8px 25px 10px 25px;
+    border: 1.5px solid green;
+    border-radius: 5px;
+
+}
