@@ -27,6 +27,10 @@
         color: white;
         margin-top: 10px;
     }
+    .nav-btn:hover{
+        background-color: white;
+        color:green;
+    }
 
     .main-nav .nav-link {
         margin-top: 10px;
@@ -34,11 +38,19 @@
 
     }
     .navbar-toggler{
+        border: 1px solid none;
         border: 1px dashed  rgb(255, 129, 57) !important;
     }
     .nav-btn-wrapper{
         width: 100% !important;
     }
+    .mian-nav{
+        border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            box-shadow: 0px 1px 10px #dfdfdf;
+        }
+        
+        
 
 
 
@@ -48,4 +60,9 @@
 
 @media(max-width:768px) {}
 
-@media(max-width:576px) {}
+@media(max-width:576px) {
+    .navbar-toggler{
+        border: 1px dashed  rgb(255, 129, 57) !important;
+        box-shadow: none !important;
+    }
+}

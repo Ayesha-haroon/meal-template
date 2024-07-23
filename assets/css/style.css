@@ -120,4 +120,44 @@ small{
 .nav-btn:hover{
     background-color: var(--green);
     color: var(--white);
+    transition: 0.5s all ease;
+}
+
+
+/* footer- */
+.footer-top{
+    background-color: var(--green);
+    color: var(--white);
+}
+.footer-top .title{
+    font-size: 30px;
+    font-style: italic;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin: 30px 0;
+}
+.footer-top .button-box{
+    text-align: end;
+}
+.light-green-btn{
+    background-color: #7dcfa5;
+    color: white;
+    font-size: 18px;
+    font-family:"Montserrat", sans-serif;
+    padding: 8px 30px 8px 30px;
+    border-radius: 5px;
+
+}
+.light-green-btn:hover{
+    background-color: white;
+    color: #7dcfa5;
+    transition: 0.5s all ease-in;
+}
+.footer-main .link-box ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
 }
