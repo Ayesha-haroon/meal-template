@@ -36,6 +36,11 @@ body{
 a{
     text-decoration: none;
 }
+.bg-custom-light{
+    background-color: #f9f9f9;
+
+  }  
+ 
 .main-nav .navbar-brand img{
     width: 150px;
 }
@@ -123,6 +128,71 @@ small{
     color: var(--white);
     transition: 0.5s all ease;
 }
+/* banner-design */
+.banner{
+    width: 100% !important;
+    padding: 100px 0;
+}
+
+.heading-banner{
+    color: var(--black);
+    font-size: 41px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+ .para-banner{
+    font-size:16px;
+    color: var(--text);
+    font-weight: 500;
+    margin-bottom: 30px;
+ }
+ .banner-btn {
+    background-color: var(--green);
+    color: white;
+    font-size: 14px;
+    font-family:"Montserrat", sans-serif;
+    padding: 8px 30px 8px 30px;
+    border-radius: 5px;
+    font-weight: 600;
+
+ }
+ .banner-btn:hover{
+    background-color: var(--white);
+    color: var(--green);
+ }
+
+
+ .banner-img img{
+    display: block;
+    width: 100%;
+    
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* footer- */
