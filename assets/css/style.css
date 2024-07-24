@@ -9,6 +9,7 @@
 *{
     margin: 0;
     padding: 0;
+    letter-spacing: 0.1px;
 }
 body{
     font-family: "Open Sans", sans-serif;
@@ -125,6 +126,9 @@ small{
 
 
 /* footer- */
+footer{
+    background-color:var(--green) ;
+}
 .footer-top{
     background-color: var(--green);
     color: var(--white);
@@ -133,7 +137,7 @@ small{
     font-size: 30px;
     font-style: italic;
     font-family: "Montserrat", sans-serif;
-    font-weight: 500;
+    /* font-weight: 500; */
     margin: 30px 0;
 }
 .footer-top .button-box{
@@ -146,6 +150,7 @@ small{
     font-family:"Montserrat", sans-serif;
     padding: 8px 30px 8px 30px;
     border-radius: 5px;
+    font-weight: 600;
 
 }
 .light-green-btn:hover{
@@ -159,5 +164,43 @@ small{
     display: flex;
     align-items: center;
     justify-content: end;
+    letter-spacing: 0.1px;
 
 }
+.footer-main{
+    border-radius: 30px 30px 0 0;
+    background-color: var(--white);
+    padding: 25px 0px 18px 0px;
+
+}
+.footer-main .logo-box img{
+    height:26px;
+    width: 150px;
+    object-fit: contain;
+}
+.footer-main .link-box ul li{
+    border-right: 1PX solid #ccc;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.footer-main .link-box ul li a{
+    font-size: 14px;
+    color: var(--text);
+    font-weight: 600 !important;
+}
+.footer-bottom{
+    background-color: #f9f9f9;
+}
+.footer-bottom .copy-right p{
+    margin-bottom: 0;
+    font-size: 13PX;
+    color: var(--black);
+    font-weight: 600;
+}
+.footer-bottom span{
+    font-size: 10px;
+}
+.footer-bottom .we-accept{
+    text-align: end !important;
+}
+
