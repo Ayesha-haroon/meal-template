@@ -146,7 +146,7 @@ small{
     font-weight: 500;
     margin-bottom: 30px;
  }
- .banner-btn {
+ .primary-btn {
     background-color: var(--green);
     color: white;
     font-size: 14px;
@@ -156,7 +156,7 @@ small{
     font-weight: 600;
 
  }
- .banner-btn:hover{
+ .primary-btn:hover{
     background-color: var(--white);
     color: var(--green);
  }
@@ -166,10 +166,31 @@ small{
     display: block;
     width: 100%;
     
-    
+}
+#banner-slider .owl-dots .owl-dot {
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+}
 
+
+
+#banner-slider .owl-dots .owl-dot span {
+    width: 50px;
+    height: 2px;
+}
+
+#banner-slider .owl-dots .owl-dot.active span{
+    background-color:  #F7941D;
+    height: 3px;
+    
+}
+#banner-slider .owl-dots .owl-dot:hover span{
+    background-color:  #F7941D;
+    height: 3px;
 
 }
+
 
 
 

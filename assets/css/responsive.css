@@ -57,18 +57,158 @@
 }
 
 @media(max-width:768px) {
+.main-nav{
+    padding-top: 10px 3px;
+}
+
+
+
+
+
+
+
 .footer-top .title{
     font-size: 26px;
+}
+
+.slide-one{
+    background-image: linear-gradient( rgb(49 49 49 / 60%), rgb(59 59 59 / 60%) ), url(../images/banner-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0;
+    border-radius: 20px;
+    margin: 15px;
+}
 
 
+.slide-two{
+    background-image: linear-gradient( rgb(49 49 49 / 60%), rgb(59 59 59 / 60%) ), url(../images/banner-0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0;
+    border-radius: 20px;
+    margin: 15px;
+}
+.slide-three{
+    background-image: linear-gradient( rgb(49 49 49 / 60%), rgb(59 59 59 / 60%) ), url(../images/banner-3-original.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+
+.banner{
+    padding: 0;
+}
+.main-heading{
+    text-align: center;
+    padding: 20px 15px;
+    position: relative;
+    top:50px;
+}
+
+.heading-banner{
+    color: var(--white);
+    font-size: 30px;
+    min-height: 108px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+}
+.para-banner{
+    color:var(--white) ;
+    text-align: center !important;
+    font-size: 15px;
+    font-weight: 500;
+    min-height: 113px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+
+}
+.slide-one .primary-btn{
+    text-align: center;
 }
 
 }
 @media(max-width:576px) {
     .navbar-toggler{
-        border: 1px dashed  rgb(255, 129, 57) !important;
+        border: 2px dashed  rgb(255, 129, 57) !important;
         box-shadow: none !important;
     }
+
+
+
+    .banner{
+        padding: 0;
+    }
+    .main-heading{
+        text-align: center;
+        padding: 20px 15px;
+        position: relative;
+        top:50px;
+    }
+    
+    .heading-banner{
+        color: var(--white);
+        font-size: 30px;
+        min-height: 108px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    
+    }
+    .para-banner{
+        color:var(--white) ;
+        text-align: center !important;
+        font-size: 15px;
+        font-weight: 500;
+        min-height: 113px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+    
+    }
+    .slide-one .primary-btn{
+        text-align: center;
+    }
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .footer-main .logo-box img{
         margin-bottom: 20px;
         
