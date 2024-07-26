@@ -167,11 +167,12 @@ small{
     width: 100%;
     
 }
-#banner-slider .owl-dots .owl-dot {
+#banner-slider .owl-dots {
     position: absolute;
-    bottom: 60px;
-    right: 0;
+    bottom:-40px ;
+    right: 70px;
 }
+
 
 
 

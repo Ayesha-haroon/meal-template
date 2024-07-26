@@ -31,3 +31,4 @@ $('#banner-slider').owlCarousel({
         }
     }
 })
+
