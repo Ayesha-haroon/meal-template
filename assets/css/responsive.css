@@ -63,10 +63,9 @@
 
 
 
-.footer{
-    margin-top: 50px;
-}
-]
+
+
+
 
 
 
@@ -107,6 +106,7 @@
 
 .banner{
     padding: 0;
+
 }
 .main-heading{
     text-align: center;
@@ -146,9 +146,14 @@
 
 #banner-slider .owl-dots{
     position: absolute;
-    bottom: -28px;
-    right:92px;
+    bottom: -5px;
+    right: 116px;
+
 }
+#banner-slider{
+    padding-bottom: 39px;
+}
+
 
 
 }
@@ -197,6 +202,25 @@
     .slide-one .primary-btn{
         text-align: center;
     }
+    banner-slider .owl-dots{
+        position: absolute;
+        bottom: -5px;
+        right: 116px;
+    
+    }
+    
+    #banner-slider{
+        padding-bottom: 39px;
+    }
+    #banner-slider .owl-dots{
+        position: absolute;
+        bottom: -5px;
+        right: 116px;
+    
+    }
+    
+
+    
     
     
 
@@ -242,6 +266,9 @@
 @media only screen and (min-width: 344px) and (max-width: 576px){
     .footer-main .link-box{
         font-size: 10px;
+    }
+    .footer{
+        margin-top: 50px;
     }
     .footer-top{
         margin-bottom: 19px;
