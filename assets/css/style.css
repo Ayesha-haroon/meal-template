@@ -43,6 +43,9 @@ a{
 .meal-plan-wrapper{
     background-color: #7dcfa5;
 }
+.meal-plan-wrapper1{
+    background-color: #f8c78b;
+}
  
 .main-nav .navbar-brand img{
     width: 150px;
@@ -194,6 +197,83 @@ small{
     height: 3px;
 
 }
+/* .meal-plan */
+.heading-section h2{
+    font-size: 38px;
+    line-height: 120%;
+    text-transform: capitalize;
+    font-family: "Montserrat", sans-serif;
+    color: var(--black);
+    font-weight: 800 !important;
+    text-align: center;
+    padding: 30px 0 70px 0;
+}
+.meal-card{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-radius: 10px;
+    /* height: 100%; */
+    overflow: hidden;
+    transition: 0.3s all ease;
+}
+
+.img-box img{
+    width: 200px;
+    height: 200px!important;
+    object-fit: cover;
+    object-position: center center;
+}
+
+/* .img-box{
+    width: 250px;
+    min-height: 200px;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+} */
+.meal-card .content-box{
+    width: 100%;
+    padding: 0 12px;
+}
+.meal-card .content-box .title{
+    font-family: "Montserrat", sans-serif;
+    color: var(--text);
+    overflow: hidden;
+    font-weight: 700;
+    display: flex;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s all ease;
+
+}
+.meal-card .content-box .price-box .price{
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 0;
+    font-weight: 700;
+
+
+}
+.meal-card .content-box .price-box .price-day{
+    color: #fff;
+}
+.card-btn{
+    border: 1px solid #fff;
+    padding: 4px 25px;
+    font-size: 15px;
+    align-items: center;
+    font-weight: bold;
+    color:#000;
+    border-radius: 5px;
+
+}
+.card-btn:hover{
+    color: #fff;
+}
+
 
 
 
@@ -298,78 +378,6 @@ footer{
 .footer-bottom .we-accept{
     text-align: end !important;
 }
-.heading-section h2{
-    font-size: 38px;
-    line-height: 120%;
-    text-transform: capitalize;
-    font-family: "Montserrat", sans-serif;
-    color: var(--black);
-    font-weight: 800 !important;
-    text-align: center;
-    padding: 30px 0 70px 0;
-}
-.meal-card{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    border-radius: 10px;
-    /* height: 100%; */
-    overflow: hidden;
-    transition: 0.3s all ease;
-}
-
-.img-box img{
-    width: 200px;
-    height: 200px!important;
-    object-fit: cover;
-    object-position: center center;
-}
-
-/* .img-box{
-    width: 250px;
-    min-height: 200px;
-    aspect-ratio: 1/1;
-    overflow: hidden;
-} */
-.meal-card .content-box{
-    width: 100%;
-    padding: 0 12px;
-}
-.meal-card .content-box .title{
-    font-family: "Montserrat", sans-serif;
-    color: var(--text);
-    overflow: hidden;
-    font-weight: 700;
-    display: flex;
-    height: 32px;
-    align-items: center;
-    justify-content: center;
-    transition: 0.3s all ease;
-
-}
-.meal-card .content-box .price-box .price{
-    color: #fff;
-    font-size: 20px;
-    line-height: 20px;
-    margin-bottom: 0;
-    font-weight: 700;
 
 
-}
-.meal-card .content-box .price-box .price-day{
-    color: #fff;
-}
-.card-btn{
-    border: 1px solid #fff;
-    padding: 4px 25px;
-    font-size: 15px;
-    align-items: center;
-    font-weight: bold;
-    color:#000;
-    border-radius: 5px;
 
-}
-.card-btn:hover{
-    color: #fff;
-}

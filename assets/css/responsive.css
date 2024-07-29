@@ -60,6 +60,10 @@
 .main-nav{
     padding-top: 10px 3px;
 }
+/* meal-card */
+.meal-card .content-box{
+    display: block;
+}
 
 
 
