@@ -61,35 +61,43 @@
     padding-top: 10px 3px;
 }
 /* meal-card */
+.meal-plan .heading-section h2{
+    font-size: 24px;
+    padding: 35px 0;
+}
 .meal-card{
     flex-direction: column;
-    padding: 16px;
-    margin-bottom: 12px;
+    padding: 10px;
+    margin-bottom: 12px !important;
 
 }
 .img-box img{
  
     border-radius: 10px !important;
-    height: 136px !important;
+    height: 150px  !important;
     width: 100%;
+    object-fit: cover;
+    object-position: center;
 
 }
 
 .meal-card .content-box{
     width: 100%;
-    padding: 0;
+    padding: 10px 0 0 0;
+
 
 }
 .meal-card .content-box .title{
     font-size: 18px;
+    font-weight: 700;
     margin-bottom: 0;
 }
 
 
 
-.meal-card .content-box .price-box .price{
+.meal-card .content-box .price-box .price-day{
     font-size: 16px;
-    margin-bottom: 0;
+    margin-bottom: 5px;
 
 
 }
@@ -97,8 +105,9 @@
     flex-direction: column-reverse;
 }
 .card-btn{
-    margin-left: -4px;
+    display: block;
 }
+
 
 
 
@@ -242,12 +251,7 @@
     .slide-one .primary-btn{
         text-align: center;
     }
-    banner-slider .owl-dots{
-        position: absolute;
-        bottom: -5px;
-        right: 116px;
     
-    }
     
     #banner-slider{
         padding-bottom: 39px;
@@ -255,7 +259,7 @@
     #banner-slider .owl-dots{
         position: absolute;
         bottom: -5px;
-        right: 116px;
+        right: 80px;
     
     }
     
