@@ -61,9 +61,45 @@
     padding-top: 10px 3px;
 }
 /* meal-card */
-.meal-card .content-box{
-    display: block;
+.meal-card{
+    flex-direction: column;
+    padding: 16px;
+    margin-bottom: 12px;
+
 }
+.img-box img{
+ 
+    border-radius: 10px !important;
+    height: 136px !important;
+    width: 100%;
+
+}
+
+.meal-card .content-box{
+    width: 100%;
+    padding: 0;
+
+}
+.meal-card .content-box .title{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+
+
+.meal-card .content-box .price-box .price{
+    font-size: 16px;
+    margin-bottom: 0;
+
+
+}
+.meal-card1{
+    flex-direction: column-reverse;
+}
+.card-btn{
+    margin-left: -4px;
+}
+
 
 
 
