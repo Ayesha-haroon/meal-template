@@ -61,6 +61,9 @@
     padding-top: 10px 3px;
 }
 /* meal-card */
+.meal-plan{
+    padding: 10px 0;
+}
 .meal-plan .heading-section h2{
     font-size: 24px;
     padding: 35px 0;
@@ -106,6 +109,31 @@
 }
 .card-btn{
     display: block;
+}
+/* meal-slider */
+.meal-of-the-day .heading-section h2{
+    font-size: 24px;
+    padding: 10px 0;
+    text-align: center;
+}
+.heading-section h2 p{
+    font-size: 16px;
+}
+/* not-sure- section */
+.not-sure{
+    height: auto;
+    margin: 19px;
+    margin-top: 200px;
+}
+.not-sure-content{
+    
+}
+.not-sure h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.not-sure p{
+    font-size: 16px;
 }
 
 

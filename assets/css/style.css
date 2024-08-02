@@ -33,6 +33,9 @@ body{
     --text: #3C3C3C;
     --light-text: #485450
 }
+.wrapper{
+    padding: 100px 0 30px 0;
+}
 a{
     text-decoration: none;
 }
@@ -288,19 +291,132 @@ small{
     font-family: "Montserrat", sans-serif;
     color: var(--black);
     font-weight: 800 !important;
-    text-align: center;
     padding: 100px 0 0 0;
-}
 
-    
+} 
 
-}
-.meal-of-the-day .heading-section p{
+
+.meal-of-the-day.heading-section p{
     font-size: 24;
     font-weight: 500;
     margin-bottom: 0;
 
 }
+.meal-pic{
+    background: url(/assets/images/rec-orange.png) no-repeat  ;
+    background-size: contain;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    
+    
+}
+ .meal-pic img{
+    width: 100px !important;
+    height: 100px ;
+    object-fit: contain;
+    position: absolute;
+    top:0;
+    left: 20px;        
+ }
+ .meal-pic img:hover{
+    transform: scale(1.2);
+    
+
+ }
+ 
+
+
+#meal-of-the-day-slider.owl-carousel .owl-stage-outer{
+    overflow-y:visible ;
+    overflow-x: clip;
+}
+
+
+
+ 
+ .card-meal{
+    height: 165px;
+    width: 170px;
+    border-radius: 27px;
+    padding: 12px;
+    position: absolute;
+    top:-150px;
+    display: none;
+ }
+
+.meal-pic:hover .card-meal{
+    display: block;
+}
+
+ .card-meal h3{
+    color:#fff;
+    font-size: 17px;
+    font-weight: 700;
+   
+ }
+ .card-meal h4{
+    color: var(--text);
+    font-size: 15px;
+    font-weight: 700;
+    border-bottom: 1px dashed var(--text); 
+ }
+ /* not-sure */
+ .not-sure{
+    height: 21rem;
+    background-color: #F7941D;
+    border-radius: 10px 202px 10px 10px;
+    padding: 40px 30px;
+    margin-bottom: 20px;
+    width: 90%;
+    margin-left: 60px;
+    position: relative;
+ }
+ .not-sure-content h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--white);
+    font-family:"Montserrat", sans-serif;
+    
+ }
+ .not-sure-content p{
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+
+
+ }
+ .not-sure-img img{
+    position: absolute;
+    bottom:30px;
+    right: 50px;
+    height: 333px;
+    object-fit: contain;
+    object-position: bottom center;
+
+ }
+ .not-sure-btn{
+    display: flex;
+    justify-content: center;
+ }
+ .black-btn{
+    background-color: #000;
+    border-radius: 5px !important;
+    font-size: 14px !important;
+    font-weight: 600;
+    color: var(--white);
+    padding: 8px 30px 10px 30px;
+    
+
+ }
+ .black-btn:hover{
+    color: var(--primary-green);
+ }
+
+ 
+
+
 
 
 
