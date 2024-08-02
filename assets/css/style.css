@@ -303,7 +303,7 @@ small{
 
 }
 .meal-pic{
-    background: url(/assets/images/rec-orange.png) no-repeat  ;
+    background: url(../images/rec-orange.png) no-repeat  ;
     background-size: contain;
     width: 100%;
     height: 100px;
