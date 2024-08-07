@@ -202,7 +202,7 @@ small{
 }
 /* .meal-plan */
 .meal-plan{
-    padding: 100px 0;
+    padding: 50px 0;
 }
 .heading-section h2{
     font-size: 38px;
@@ -246,12 +246,14 @@ small{
 }
 .meal-card .content-box .title{
     font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
     color: var(--text);
     overflow: hidden;
     font-weight: 700;
-    display: flex;
+    /* display: flex; */
 
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     transition: 0.3s all ease;
 
@@ -259,10 +261,11 @@ small{
 .meal-card .content-box .price-box .price{
     color: #fff;
     font-size: 20px;
-    line-height: 0;
+    line-height: 7px;
     margin-bottom: 0;
-    font-weight: 700;
+    font-weight: 500;
     text-align: center;
+    
 
 
 }
@@ -296,17 +299,17 @@ small{
 } 
 
 
-.meal-of-the-day.heading-section p{
+.meal-of-the-day .heading-section p{
     font-size: 24;
     font-weight: 500;
-    margin-bottom: 0;
+    padding-bottom: 16rem;
 
 }
 .meal-pic{
     background: url(../images/rec-orange.png) no-repeat  ;
     background-size: contain;
     width: 100%;
-    height: 100px;
+    height: 140px;
     position: relative;
     
     
@@ -316,19 +319,19 @@ small{
     background: url(../images/\/Rectangle\ 14.png) no-repeat  ;
     background-size: contain;
     width: 100%;
-    height: 100px;
+    height: 140px;
     position: relative;
     
     
 }
 
  .meal-pic img{
-    width: 100px !important;
+    width: 125px !important;
     height: 100px ;
     object-fit: contain;
     position: absolute;
-    top:0;
-    left: 20px;        
+    top:20px;
+    left: 60px;        
  }
  .meal-pic img:hover{
     transform: scale(1.2);
@@ -349,10 +352,11 @@ small{
  .card-meal{
     height: 165px;
     width: 170px;
-    border-radius: 27px;
-    padding: 12px;
+    border-radius: 20px;
+    padding: 11px;
     position: absolute;
     top:-150px;
+    left: 60px;
     display: none;
  }
 
