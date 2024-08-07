@@ -362,14 +362,10 @@ small{
     border-bottom: 1px dashed var(--text); 
  }
  /* not-sure */
- .not-sure{
-    height: 21rem;
+ .not-sure .main-box{
     background-color: #F7941D;
     border-radius: 10px 202px 10px 10px;
     padding: 40px 30px;
-    margin-bottom: 20px;
-    width: 90%;
-    margin-left: 60px;
     position: relative;
  }
  .not-sure-content h2{
@@ -389,9 +385,9 @@ small{
  }
  .not-sure-img img{
     position: absolute;
-    bottom:30px;
-    right: 50px;
-    height: 333px;
+    bottom:0;
+    right: 0;
+    height: 373px;
     object-fit: contain;
     object-position: bottom center;
 
