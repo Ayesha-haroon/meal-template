@@ -155,6 +155,10 @@ small{
     font-weight: 500;
     margin-bottom: 30px;
  }
+ .para-banner span{
+    color: #00A651;
+    font-weight: 600;
+ }
  .primary-btn {
     background-color: var(--green);
     color: white;
@@ -163,11 +167,13 @@ small{
     padding: 8px 30px 8px 30px;
     border-radius: 5px;
     font-weight: 600;
+    width: 100%;
 
  }
  .primary-btn:hover{
     background-color: var(--white);
     color: var(--green);
+    border: 1px solid var(--green);
  }
 
 
@@ -179,7 +185,7 @@ small{
 #banner-slider .owl-dots {
     position: absolute;
     bottom:-40px ;
-    right: 54px;
+    right: 14px;
 }
 
 
@@ -246,8 +252,8 @@ small{
 }
 .meal-card .content-box .title{
     font-family: "Montserrat", sans-serif;
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 20px;
+    line-height: 60px;
     color: var(--text);
     overflow: hidden;
     font-weight: 700;
@@ -260,10 +266,10 @@ small{
 }
 .meal-card .content-box .price-box .price{
     color: #fff;
-    font-size: 20px;
-    line-height: 7px;
+    font-size: 19px;
+    line-height: 20px;
     margin-bottom: 0;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
     
 
@@ -272,6 +278,7 @@ small{
 .meal-card .content-box .price-box .price-day{
     text-align: center;
     color: #fff;
+    font-size: 15px;
 }
 .card-btn{
     border: 1px solid #fff;
@@ -287,6 +294,9 @@ small{
     color: #fff;
 }
 /* meal-of-the-day-slider */
+.meal-of-the-day{
+    padding-left: 40px;
+}
 .meal-of-the-day .heading-section h2{
     font-size: 38px;
     line-height: 120%;
@@ -380,7 +390,7 @@ small{
  .not-sure .main-box{
     background-color: #F7941D;
     border-radius: 10px 202px 10px 10px;
-    padding: 40px 30px;
+    padding: 40px 47px 20px ;
     position: relative;
  }
  .not-sure-content h2{
@@ -409,7 +419,8 @@ small{
  }
  .not-sure-btn{
     display: flex;
-    justify-content: center;
+    justify-content: end;
+    padding-right:65px;
  }
  .black-btn{
     background-color: #000;
@@ -418,6 +429,7 @@ small{
     font-weight: 600;
     color: var(--white);
     padding: 8px 30px 10px 30px;
+    
     
 
  }

@@ -19,8 +19,8 @@ $('#banner-slider').owlCarousel({
     loop:true,
     margin:10,
     nav:false,
-    autoplay:false,
- autoplayTimeout:1000,
+    autoplay:true,
+ autoplayTimeout:1500,
 autoplayHoverPause:true,
     
     responsive:{
@@ -38,9 +38,9 @@ autoplayHoverPause:true,
 $('#meal-of-the-day-slider').owlCarousel({
     loop:true,
     margin:10,
-    nav:false,
-    autoplay:false,
-    autoplayTimeout:1000,
+    nav:true,
+    autoplay:true,
+    autoplayTimeout:1500,
    autoplayHoverPause:true,
    
     responsive:{
