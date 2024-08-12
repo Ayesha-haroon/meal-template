@@ -51,7 +51,7 @@
             height: auto;
             margin: 32px;
             margin-top: 100px;
-            padding-bottom: 10px;
+            /* padding-bottom: 10px; */
         }
         
         
@@ -63,7 +63,7 @@
 }
 /* meal-card */
 .meal-plan{
-    padding: 10px 0;
+    padding: 10px 0 40px 0;
 }
 .meal-plan .heading-section h2{
     font-size: 24px;
@@ -94,8 +94,21 @@
 .meal-card .content-box .title{
     font-size: 18px;
     font-weight: 700;
-    margin-bottom: 0;
+    margin-bottom: 3px;
+    height: auto;
+
 }
+.meal-card .box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.meal-card .content-box .price-box .price{
+    font-size: 16px;
+}
+
 
 
 
@@ -112,6 +125,15 @@
     display: block;
 }
 /* meal-slider */
+.meal-of-the-day{
+    padding: 50px 0;
+    margin-top: 40px;
+}
+.card-meal{
+    position: absolute;
+    top:-150px;
+    left:12px;
+}
 .meal-of-the-day .heading-section h2{
     font-size: 24px;
     padding: 10px 0;
@@ -120,10 +142,13 @@
 .heading-section h2 p{
     font-size: 16px;
 }
+.owl-nav{
+    display: none;
+}
 /* not-sure- section */
 .not-sure{
     height: auto;
-    margin: 19px;
+    margin: 0;
     margin-top: 100px;
     padding-bottom: 10px;
 }
@@ -140,6 +165,10 @@
 .not-sure p{
     font-size: 16px;
 }
+.not-sure-btn{
+    margin-right: 10px;
+}
+
 
 
 
@@ -297,7 +326,7 @@
     }
     /* not-sure */
     .not-sure{
-        margin-top: 200px;
+        /* margin-top: 200px; */
         padding-bottom: 10px;
     }
     
@@ -357,7 +386,7 @@
 /* .not-sure */
 .not-sure-img img{
     height:275px ;
-    top: -175px;
+    top: -100px;
     left:37px ;
 
 
