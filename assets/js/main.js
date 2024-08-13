@@ -20,7 +20,7 @@ $('#banner-slider').owlCarousel({
     margin:10,
     nav:false,
     autoplay:true,
- autoplayTimeout:1500,
+ autoplayTimeout:2500,
 autoplayHoverPause:true,
     
     responsive:{
@@ -40,7 +40,7 @@ $('#meal-of-the-day-slider').owlCarousel({
     margin:10,
     nav:false,
     autoplay:true,
-    autoplayTimeout:1500,
+    autoplayTimeout:2500,
    autoplayHoverPause:true,
    
     responsive:{

@@ -36,19 +36,32 @@ body{
 .wrapper{
     padding: 100px 0 30px 0;
 }
+
 a{
     text-decoration: none;
 }
 .bg-custom-light{
     background-color: #f9f9f9;
 
-  }  
-.meal-plan-wrapper{
+}  
+.bg-custom-green{
     background-color: #7dcfa5;
 }
-.meal-plan-wrapper1{
+.bg-custom-org{
     background-color: #f8c78b;
 }
+.heading-section h2 {
+    font-size: 38px;
+    text-transform: capitalize;
+    font-family: "Montserrat", sans-serif;
+    color: var(--black);
+    font-weight: 700 !important;
+    text-align: center;
+    padding: 30px 0 50px 0;
+}
+
+
+
  
 .main-nav .navbar-brand img{
     width: 150px;
@@ -131,11 +144,12 @@ small{
     border-radius: 5px;
     letter-spacing: 0.1px;
     text-transform: uppercase;
+
 }
 .nav-btn:hover{
     background-color: var(--green);
     color: var(--white);
-    transition: 0.5s all ease;
+    transition: 0.3 all ease-in;
 }
 /* banner-design */
 .banner{
@@ -169,11 +183,13 @@ small{
     font-weight: 600;
     width: 100%;
 
+
  }
  .primary-btn:hover{
     background-color: var(--white);
     color: var(--green);
     border: 1px solid var(--green);
+    transition: 0.3s all ease-in;
  }
 
 
@@ -210,16 +226,6 @@ small{
 .meal-plan{
     padding: 100px 0 65px 0;
 }
-.heading-section h2{
-    font-size: 38px;
-    /* line-height: 120px; */
-    text-transform: capitalize;
-    font-family: "Montserrat", sans-serif;
-    color: var(--black);
-    font-weight: 700 !important;
-    text-align: center;
-    padding: 30px 0 50px 0;
-}
 .meal-card{
     position: relative;
     display: flex;
@@ -238,14 +244,9 @@ small{
     height: 200px!important;
     object-fit: cover;
     object-position: center center;
+
 }
 
-/* .img-box{
-    width: 250px;
-    min-height: 200px;
-    aspect-ratio: 1/1;
-    overflow: hidden;
-} */
 .meal-card .content-box{
     width: 100%;
     padding: 0 12px;
@@ -271,9 +272,6 @@ small{
     margin-bottom: 0;
     font-weight: 600;
     text-align: center;
-    
-
-
 }
 .meal-card .content-box .price-box .price-day{
     text-align: center;
@@ -299,16 +297,6 @@ small{
     padding-left: 40px;
     padding-bottom: 75px;
 }
-.meal-of-the-day .heading-section h2{
-    font-size: 38px;
-    /* line-height: 273%; */
-    text-transform: capitalize;
-    font-family: "Montserrat", sans-serif;
-    color: var(--black);
-    font-weight: 700!important;
-    padding: 100px 0 0 0;
-
-} 
 
 
 .meal-of-the-day .heading-section p{
@@ -346,7 +334,7 @@ small{
     left: 40px;        
  }
  .meal-pic img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     
 
  }
@@ -357,18 +345,14 @@ small{
     overflow-y:visible ;
     overflow-x: clip;
 }
-
-
-
- 
  .card-meal{
-    height: 165px;
+    height: 180px;
     width: 170px;
     border-radius: 20px;
     padding: 11px;
     position: absolute;
     top:-150px;
-    left: 60px;
+    left: 18px;
     display: none;
  }
 
@@ -379,14 +363,15 @@ small{
  .card-meal h3{
     color:#fff;
     font-size: 17px;
-    font-weight: 700;
+    font-weight: 600;
+    text-align: center;
    
  }
  .card-meal h4{
     color: var(--text);
     font-size: 15px;
-    font-weight: 700;
-    border-bottom: 1px dashed var(--text); 
+    font-weight: 500;
+    border-bottom: 1px dashed var(--text) ; 
  }
  
  /* not-sure */
@@ -432,9 +417,6 @@ small{
     font-weight: 600;
     color: var(--white);
     padding: 8px 30px 10px 30px;
-    
-    
-
  }
  .black-btn:hover{
     color: var(--primary-green);

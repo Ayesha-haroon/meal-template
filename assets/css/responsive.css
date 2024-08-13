@@ -132,7 +132,7 @@
 .card-meal{
     position: absolute;
     top:-150px;
-    left:12px;
+    left:2px;
 }
 .meal-of-the-day .heading-section h2{
     font-size: 24px;
@@ -231,7 +231,7 @@
     font-size: 30px;
     min-height: 108px;
     overflow: hidden;
-    text-overflow: ellipsis;
+    /* text-overflow: ellipsis; */
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
@@ -258,7 +258,7 @@
 #banner-slider .owl-dots{
     position: absolute;
     bottom: -5px;
-    right: 116px;
+    right: 85px;
 
 }
 #banner-slider{
@@ -291,7 +291,7 @@
         font-size: 30px;
         min-height: 108px;
         overflow: hidden;
-        text-overflow: ellipsis;
+        /* text-overflow: ellipsis; */
         display: -webkit-box;
         -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
@@ -321,7 +321,7 @@
     #banner-slider .owl-dots{
         position: absolute;
         bottom: -5px;
-        right: 116px;
+        right: 85px;
     
     }
     /* not-sure */
