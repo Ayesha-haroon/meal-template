@@ -61,7 +61,6 @@ a{
 }
 
 
-
  
 .main-nav .navbar-brand img{
     width: 150px;
@@ -282,11 +281,12 @@ small{
     border: 1px solid #fff;
     padding: 6px 41px;
     font-size: 15px;
-    align-items: center;
     text-align: center;
     font-weight: bold;
     color:#000;
     border-radius: 5px;
+    width: 100% !important;
+    display: block;
 
 }
 .card-btn:hover{
@@ -297,6 +297,10 @@ small{
     padding-left: 40px;
     padding-bottom: 75px;
 }
+.meal-of-the-day .heading-section h2{
+    padding: 100px 0 0 0;
+}
+
 
 
 .meal-of-the-day .heading-section p{
@@ -346,32 +350,53 @@ small{
     overflow-x: clip;
 }
  .card-meal{
-    height: 180px;
+    height: auto !important;
     width: 170px;
     border-radius: 20px;
-    padding: 11px;
     position: absolute;
     top:-150px;
     left: 18px;
     display: none;
+    padding: 12px;
+    transition: 3s all ease-in;
  }
 
 .meal-pic:hover .card-meal{
     display: block;
+    transition: all 3s ease-in;
+}
+.card-meal ul li{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px dashed #7a7a7a;
+
+}
+.card-meal ul{
+    padding: 0 !important;
+
 }
 
  .card-meal h3{
     color:#fff;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 600;
     text-align: center;
+    line-height: 20px;
+    
+    /* padding-bottom:10px ; */
    
  }
- .card-meal h4{
+ 
+ .card-meal .title{
     color: var(--text);
     font-size: 15px;
-    font-weight: 500;
-    border-bottom: 1px dashed var(--text) ; 
+    font-weight: 600;
+    /* line-height: -12px; */
+    
+    
+    
+    
  }
  
  /* not-sure */
