@@ -321,7 +321,7 @@
     #banner-slider .owl-dots{
         position: absolute;
         bottom: -5px;
-        right: 85px;
+        right: 108px;
     
     }
     /* not-sure */
@@ -334,6 +334,9 @@
     height: 279px;
     top:-200px;
     right: 42px;
+}
+.black-btn{
+    font-size: 12px;
 }
 }
     
@@ -382,12 +385,14 @@
 
 }
 @media only screen and (min-width: 344px) and (max-width: 576px){
+    
+    
 
 /* .not-sure */
 .not-sure-img img{
-    height:275px ;
+    height:257px ;
     top: -100px;
-    left:37px ;
+    left:8px ;
 
 
 }

@@ -39,6 +39,7 @@ body{
 
 a{
     text-decoration: none;
+    transition: 0.3s all ease-in;
 }
 .bg-custom-light{
     background-color: #f9f9f9;
@@ -175,20 +176,22 @@ small{
  .primary-btn {
     background-color: var(--green);
     color: white;
-    font-size: 14px;
+    font-size: 17px;
     font-family:"Montserrat", sans-serif;
-    padding: 8px 30px 8px 30px;
+    padding: 8px 30px 10px 30px;
     border-radius: 5px;
     font-weight: 600;
     width: 100%;
 
 
+
+
  }
  .primary-btn:hover{
-    background-color: var(--white);
+    background-color: transparent;
     color: var(--green);
     border: 1px solid var(--green);
-    transition: 0.3s all ease-in;
+   
  }
 
 
@@ -256,8 +259,9 @@ small{
     /* line-height: 60px; */
     color: var(--text);
     overflow: hidden;
-    font-weight: 700;
+    font-weight: 800;
     display: flex;
+    line-height: 56px;
 
     align-items: center;
     justify-content: center;
@@ -266,16 +270,16 @@ small{
 }
 .meal-card .content-box .price-box .price{
     color: #fff;
-    font-size: 19px;
+    font-size: 22px;
     line-height: 20px;
     margin-bottom: 0;
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
 }
 .meal-card .content-box .price-box .price-day{
     text-align: center;
     color: #fff;
-    font-size: 15px;
+    font-size: 14px;
 }
 .card-btn{
     border: 1px solid #fff;
@@ -425,7 +429,7 @@ small{
     position: absolute;
     bottom:23px;
     right: 54px;
-    height: 335px;
+    height: 380px;
     object-fit: contain;
     object-position: bottom center;
 
@@ -438,10 +442,10 @@ small{
  .black-btn{
     background-color: #000;
     border-radius: 5px !important;
-    font-size: 14px !important;
+    font-size: 17px;
     font-weight: 600;
     color: var(--white);
-    padding: 8px 30px 10px 30px;
+    padding: 10px 36px 12px 30px;
  }
  .black-btn:hover{
     color: var(--primary-green);
@@ -498,11 +502,12 @@ footer{
 .light-green-btn{
     background-color: #7dcfa5;
     color: white;
-    font-size: 18px;
+    font-size: 19px;
     font-family:"Montserrat", sans-serif;
     padding: 8px 30px 8px 30px;
     border-radius: 5px;
     font-weight: 600;
+    justify-content: space-around;
 
 }
 .light-green-btn:hover{
@@ -554,6 +559,9 @@ footer{
 }
 .footer-bottom .we-accept{
     text-align: end !important;
+}
+.button-footer{
+
 }
 
 

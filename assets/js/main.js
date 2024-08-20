@@ -39,7 +39,7 @@ $('#meal-of-the-day-slider').owlCarousel({
     loop:true,
     margin:10,
     nav:false,
-    autoplay:false,
+    autoplay:true,
     autoplayTimeout:2500,
    autoplayHoverPause:true,
    
