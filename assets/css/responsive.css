@@ -46,12 +46,18 @@
             border-bottom-right-radius: 20px;
             box-shadow: 0px 1px 10px #dfdfdf;
         }
+        .meal-card .content-box .title{
+            line-height: 25px;
+        }
         /* .not-sure */
         .not-sure{
             height: auto;
             margin: 32px;
             margin-top: 100px;
             /* padding-bottom: 10px; */
+        }
+        .not-sure .main-box{
+            padding: 14px 20px 20px ;
         }
         
         
@@ -99,14 +105,16 @@
 
 }
 .meal-card .box{
+    font-size: 14px;
     display:flex;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 5px;
     
 }
 .meal-card .content-box .price-box .price{
-    font-size: 16px;
+    font-size: 18px;
 }
 
 
@@ -125,6 +133,11 @@
     display: block;
 }
 /* meal-slider */
+#meal-of-the-day-slider{
+    padding-bottom: 0;
+}
+
+
 .meal-of-the-day{
     padding: 50px 0;
     margin-top: 40px;
@@ -149,11 +162,12 @@
 .not-sure{
     height: auto;
     margin: 0;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     padding-bottom: 10px;
+;
 }
 .not-sure-content{
-    padding: 150px 0 10px 0;
+    padding: 150px 30px 10px 0;
     /* padding-left: 20px; */
 
 
@@ -320,14 +334,19 @@
     }
     #banner-slider .owl-dots{
         position: absolute;
-        bottom: -5px;
-        right: 108px;
+        bottom: 22px;
+        right: 85px;
+        margin-bottom: 0;
     
+    }
+    #meal-of-the-day-slider{
+        margin-bottom: 0px;
     }
     /* not-sure */
     .not-sure{
         /* margin-top: 200px; */
         padding-bottom: 10px;
+        margin-bottom: 0;
     }
     
 .not-sure-img img{
@@ -336,7 +355,7 @@
     right: 42px;
 }
 .black-btn{
-    font-size: 12px;
+    font-size: 14px;
 }
 }
     
@@ -396,8 +415,8 @@
 
 
 }
-.meal-of-the-day{
-    padding: 0;
+.meal-of-the-day-slider{
+    padding-bottom: 0;
 }
 
 
