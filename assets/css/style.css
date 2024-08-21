@@ -153,6 +153,7 @@ small{
 }
 /* banner-design */
 .banner{
+
     width: 100% !important;
     padding: 100px 0;
 }
@@ -446,7 +447,7 @@ small{
     font-size: 17px;
     font-weight: 600;
     color: var(--white);
-    padding: 10px 36px 12px 30px;
+    padding: 12px 36px 12px 30px;
  }
  .black-btn:hover{
     color: var(--primary-green);

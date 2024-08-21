@@ -215,6 +215,7 @@
     padding: 100px 0;
     border-radius: 20px;
     margin: 15px;
+    height: 600px;
 }
 
 
@@ -226,6 +227,7 @@
     padding: 100px 0;
     border-radius: 20px;
     margin: 15px;
+    height: 600px;
 }
 .slide-three{
     background-image: linear-gradient( rgb(49 49 49 / 60%), rgb(59 59 59 / 60%) ), url(../images/banner-3-original.jpg);
@@ -235,6 +237,7 @@
     padding: 100px 0;
     border-radius: 20px;
     margin: 15px;
+    height: 600px;
 }
 
 
@@ -256,7 +259,7 @@
     overflow: hidden;
     /* text-overflow: ellipsis; */
     display: -webkit-box;
-    -webkit-line-clamp: none;
+    /* -webkit-line-clamp: ; */
     -webkit-box-orient: vertical;
 
 }
@@ -315,7 +318,7 @@
         overflow: hidden;
         /* text-overflow: ellipsis; */
         display: -webkit-box;
-        -webkit-line-clamp: 3;
+        /* -webkit-line-clamp: 3; */
         -webkit-box-orient: vertical;
     
     }
