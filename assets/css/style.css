@@ -344,7 +344,7 @@ small{
     position: absolute;
     top:35px;
     left: 26px; 
-    transition: all 0.3 ease-in;       
+    transition: all 0.3s ease-in;       
  }
  .meal-pic img:hover{
     transform: scale(1.1);   
