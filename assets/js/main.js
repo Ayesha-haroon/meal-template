@@ -37,7 +37,7 @@ autoplayHoverPause:true,
 });
 $('#meal-of-the-day-slider').owlCarousel({
     loop:true,
-    margin:10,
+    margin:20,
     nav:false,
     autoplay:true,
     autoplayTimeout:2500,
@@ -47,6 +47,7 @@ $('#meal-of-the-day-slider').owlCarousel({
         0:{
             items:2
         },
+        // margin:25,
         600:{
             items:2
         },

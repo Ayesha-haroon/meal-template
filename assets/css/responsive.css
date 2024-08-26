@@ -64,7 +64,7 @@
 /* meal-card */
 .meal-plan .heading-section h2{
     font-size: 24px;
-    margin-bottom: 150px;
+    
 }
 .meal-plan{
     display: block;
@@ -149,8 +149,8 @@
     height:auto;
 }
 .not-sure-img img{
-    top:-81px !important;
-    left: 8px;
+    
+    right: 35px;
 }
 .not-sure{
     height: auto;
@@ -159,7 +159,7 @@
     padding-bottom: 10px;
 }
 .not-sure .main-box{
-    padding: 200px 100px 20px 32px;
+    padding: 200px 60px 20px 32px;
     border-radius: 10px 150px 10px 10px;
 }
 
@@ -177,7 +177,9 @@
 }
 .not-sure-btn{
     margin-right: 10px;
-    font-size: 13px;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
 }
 
 .footer-top .title{
@@ -344,7 +346,13 @@
     right: 42px;
 }
 .black-btn{
-    font-size: 13px;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+
+}
+.not-sure-btn{
+    padding-right: 0;
 }
 }
     
@@ -393,16 +401,14 @@
 
 
 @media only screen and (min-width: 344px) and (max-width: 576px){
-.meal-pic img {
-    width: 120px !important;
+.meal-pic img{
+    width: 150px !important;
+    top:35px;
+    left: 40px;
 }
-.meal-card{
-    /* width: 120px !important; */
-    top:-160px;
-    left:0;
-
+.card-meal{
+    width: 160px !important;
 }
-
 /* .not-sure */
 .not-sure-img img{
     height:257px ;
