@@ -52,7 +52,7 @@ a{
     background-color: #f8c78b;
 }
 .heading-section h2 {
-    font-size: 38px;
+    font-size: 32px;
     text-transform: capitalize;
     font-family: "Montserrat", sans-serif;
     color: var(--black);
@@ -225,7 +225,7 @@ small{
     height: 100%;
     border-radius: 10px;
     overflow: hidden;
-    transition: 0.3s all ease;
+    transition: all 0.5s ease;
 
     
 }
@@ -234,6 +234,7 @@ small{
     min-width: 200px;
     aspect-ratio: 1 / 1;
     overflow: hidden;
+    
 }
 
 .meal-card .img-box img{
@@ -242,6 +243,7 @@ small{
     object-fit: cover;
     transform: scale(1);
     transition: all 0.3 ease-in;
+  
 
 }
 .meal-card:hover .img-box img{
@@ -313,7 +315,7 @@ small{
 
 .meal-of-the-day .heading-section p{
     font-size: 24;
-    font-weight: 500;
+    font-weight: 500 !important;
     padding-bottom: 16rem;
 
 }
@@ -365,6 +367,9 @@ small{
     transition: 3s all ease-in;
 
 
+}
+.meal-pic{
+    transition: 3s all ease-in;
 }
  
 
