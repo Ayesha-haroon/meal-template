@@ -64,6 +64,7 @@
 /* meal-card */
 .meal-plan .heading-section h2{
     font-size: 24px;
+    margin-bottom: 150px;
 }
 .meal-plan{
     display: block;
@@ -397,7 +398,7 @@
 }
 .meal-card{
     /* width: 120px !important; */
-    top:-150px;
+    top:-160px;
     left:0;
 
 }
