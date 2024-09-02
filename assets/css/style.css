@@ -529,40 +529,43 @@ small{
         rgba(247, 148, 29, 1) 100%
     );
     border-radius: 202px 10px 10px 10px;
-    padding: 125px 60px ;
+    padding: 175px 60px ;
     margin-bottom: 20px;
     position: relative;
 
  }
  .expert-img img{
-    height: 300px;
+    height: 415px;
     position: absolute;
-    top: -200px;
-    left:40px;
+    top: -307px;
+    left: -30px;
  }
  .expert-content {
     position: absolute;
     top:0px;
-    left:389px;
-    padding: 44px;
+    left: 350px;
+    padding: 45px;
  }
- .expert-content h2{
+ .expert-content h2 {
     color: var(--white);
-    font-size: 36px;
+    font-size: 44px;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
  }
+ .expert-content p{
+    font-size: 16px;
+ }
  .expert-btn{
     color: white;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 600;
     font-family:"Montserrat", sans-serif ;
-    padding: 4px 10px;
+    padding: 12px 10px;
     background-color: orange;
     display: flex;
     align-items:center ;
     justify-content: start;
-    border-radius: 5px;
+    border-radius: 12px;
  }
     
  
