@@ -15,10 +15,7 @@
 
 
 /* our-expert-- */
-.our-expert .main-expert{
-    /* top:-185px; */
-    left: 0;
-}
+
 }
 @media(max-width:992px) {
     .navbar-nav li {
@@ -76,9 +73,6 @@
      /* .our-expert */
     .expert-img img{
         height: 280px;
-    }
-    .our-expert .main-expert{
-        padding: 280px 60px;
     }
      
 
@@ -214,37 +208,35 @@
     text-align: center;
 }
 /* how-its-work design */
+.working-heading{
+    background-color: transparent;
+}
 
 .working-heading h2 {
     text-align: start;
     font-size: 30px;
     margin-bottom: 10px;
 }
-.working-heading p{
-    text-align: center;
-}
-.work-btn{
-    display: none;
-}
 /* our-experts */
 .our-expert .main-expert{
-    /* padding: 0; */
+    padding-top: 200px;
 }
+
 .expert-img img{
     height: 280px;
     width: 200px;
     object-fit: contain;
-}
-.expert-content{
-padding-top: 50px;
-}
-.expert-content h2{
-    font-size: 25px;
-}
-.expert-content p{
-    font-size: 13px;
+    top:-250px;
+    left: 0;
 }
 
+.expert-content h2{
+    font-size: 32px;
+}
+.expert-content p{
+    font-size: 16px;
+
+}
 
 /* ---footer--- */
 .footer-top .title{
@@ -337,12 +329,15 @@ padding-top: 50px;
 .how-its-work{
     display: flex;
     flex-direction: row;
+    padding-top: 0;
+}
+.work-btn{
+    display: block;
+}
+
 }
 
 
-
-
-}
 @media(max-width:576px) {
     .navbar-toggler{
         border: 2px dashed  rgb(255, 129, 57) !important;
@@ -425,25 +420,38 @@ padding-top: 50px;
 .not-sure-btn{
     padding-right: 0;
 }
+/* working */
 .working{
     margin: 20px 30px;
 }
+.working-heading{
+    background-color: transparent;
+
+}
 
 .working-heading h2{
-    text-align: center;
+    text-align: start !important;
     font-size: 30px;
     margin-bottom: 10px;
+    
 
 }
 .working-heading p{
     font-size: 15px;
     padding: 0 10px;
 }
+.work-btn{
+    display: none !important;
+}
+
 .green-icon-card{
     text-align: center;
 }
+/* .our-expert */
 
-}
+
+
+
 
     
 
@@ -487,12 +495,12 @@ padding-top: 50px;
         font-size: 12px;
     }
 
-       
+}   
 
 
 @media only screen and (min-width: 344px) and (max-width: 576px){
 .meal-pic img{
-    width: 150px !important;
+    width: 130px !important;
     top:35px;
     left: 40px;
 }
@@ -521,19 +529,14 @@ padding-top: 50px;
     display: none;
 }
 /* our-expert */
-.expert-content{
-    width: 100%;
-    top: 145px;
-    left:0;
-}
+
+
 .expert-img img{
-    height:250px;
-    top: -380px;
-    left:-16px;
+    /* height:250px; */
+    /* top: -250px; */
+    left:25px;
 }
-.our-expert .main-expert {
-    padding: 290px 60px 187px;
-}
+
 
 
 
