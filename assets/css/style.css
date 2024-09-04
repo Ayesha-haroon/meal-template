@@ -517,17 +517,17 @@ small{
     font-size: 20px;
     font-weight: 600;
     font-family: "Open Sans", sans-serif;
-    height:45px;
-    line-height: 33px;
+    min-height:45px;
+    line-height: 15px;
 
  }
  .green-card-heading p{
     color: var(--white);
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 500;
     font-family: "Open Sans", sans-serif;
     margin-bottom: 0;
-    height: 130px;
+    height: 150px;
     line-height: 18px;
     margin-top:-30px;
  }
@@ -552,7 +552,7 @@ small{
     left: 20px;
  }
 
- 
+/*   */
  .expert-content{
     padding: 44px;
 

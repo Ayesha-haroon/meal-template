@@ -3,7 +3,7 @@
         text-align: start !important;
     }
     .green-icon-card{
-        height: 100% !important;
+        height: 100% !;
     }
     .how-its-work .work-btn{
         display: block;
@@ -90,6 +90,7 @@
 /* meal-card */
 .meal-plan .heading-section h2{
     font-size: 24px;
+    padding: 0px 0 50px 0;
     
 }
 .meal-plan{
@@ -219,7 +220,7 @@
 }
 /* our-experts */
 .our-expert .main-expert{
-    padding-top: 200px;
+padding-top: 150px;
 }
 
 .expert-img img{
@@ -231,11 +232,14 @@
 }
 
 .expert-content h2{
-    font-size: 32px;
+    font-size: 30px;
 }
 .expert-content p{
     font-size: 16px;
 
+}
+.expert-content{
+    padding: 50px;
 }
 
 /* ---footer--- */
@@ -250,7 +254,8 @@
     background-position: center center;
     padding: 100px 0;
     border-radius: 20px;
-    margin: 15px;
+    margin: 0px;
+    margin-top: 20px;
     height: 600px;
 }
 
@@ -262,7 +267,8 @@
     background-position: center center;
     padding: 100px 0;
     border-radius: 20px;
-    margin: 15px;
+    margin: 0px;
+    margin-top: 20px;
     height: 600px;
 }
 .slide-three{
@@ -272,7 +278,8 @@
     background-position: center center;
     padding: 100px 0;
     border-radius: 20px;
-    margin: 15px;
+    margin: 0px;
+    margin-top: 20px;
     height: 600px;
 }
 
@@ -359,7 +366,7 @@
     .heading-banner{
         color: var(--white);
         font-size: 30px;
-        min-height: 108px;
+        min-height: 73px;
         overflow: hidden;
         /* text-overflow: ellipsis; */
         display: -webkit-box;
@@ -398,6 +405,10 @@
     }
     #meal-of-the-day-slider{
         margin-bottom: 0px;
+    }
+    /* meal of the day */
+    .meal-of-the-day .heading-section h2{
+        margin-bottom: 0;
     }
     /* not-sure */
     .not-sure{
@@ -439,6 +450,9 @@
 .working-heading p{
     font-size: 15px;
     padding: 0 10px;
+    text-align: center;
+    padding-bottom: 0;
+
 }
 .work-btn{
     display: none !important;
@@ -446,6 +460,11 @@
 
 .green-icon-card{
     text-align: center;
+    height: auto !important;
+    line-height: 22px;
+}
+.green-icon-para{
+    height:auto !important;
 }
 /* .our-expert */
 
@@ -523,10 +542,16 @@
     align-items: center;
     font-size: 30px;
     margin-bottom: 10px;
+    padding-bottom: 0;
 
 }
+
 .work-btn{
     display: none;
+}
+.green-icon-card{
+    height: auto !important;
+
 }
 /* our-expert */
 
@@ -534,7 +559,7 @@
 .expert-img img{
     /* height:250px; */
     /* top: -250px; */
-    left:25px;
+    left:40px;
 }
 
 
