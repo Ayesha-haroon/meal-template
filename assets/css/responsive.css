@@ -230,18 +230,19 @@ padding-top: 150px;
     width: 200px;
     object-fit: contain;
     top:-250px;
-    left: 0;
+    left: 45px;
 }
 
 .expert-content h2{
-    font-size: 30px;
+    font-size: 26px;
 }
 .expert-content p{
     font-size: 16px;
+    
 
 }
 .expert-content{
-    padding: 50px;
+    padding: 30px;
 }
 
 /* ---footer--- */
@@ -339,6 +340,11 @@ padding-top: 150px;
 }
 .work-btn{
     display: block;
+}
+/* .our-expert */
+.expert-btn{
+    font-size: 16px;
+    padding: 6px 12px;
 }
 
 }
