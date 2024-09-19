@@ -530,7 +530,7 @@ small{
     margin-bottom: 0;
     height: 150px;
     line-height: 25px;
-    /* margin-top:-30px; */
+    overflow: hidden;
  }
  .green-card-heading.orange .icon-title1{
     color: orange;
@@ -581,6 +581,122 @@ small{
     justify-content: start;
     border-radius: 12px;
  }
+ /* easy-section */
+.easy-img img{
+    height: 300px;
+    width: 100%;
+    border-radius: 26px;
+    margin-bottom: 20px;
+}
+ .accordion-button{
+    background-color: #F8C78B;
+    color: orange ;
+    font-weight: 700;
+    font-size: 17px;
+    
+
+}
+.accordion-button:hover{
+    background-color: #7DCFA5;
+    color:var(--green);
+    
+}
+.accordion-button:not(.collapsed){
+    color: green;
+}
+.accordion-item{
+    border: 0;
+    --bs-accordion-btn-focus-box-shadow:0;
+    
+
+}
+.accordion{
+    --bs-accordion-active-bg:  #7DCFA5;
+    --bs-accordion-btn-color:var(--primary);
+    --bs-accordion-btn-active-icon:none;
+    --bs-accordion-active-color:var(--green)
+    
+
+}
+.accordion-button::after{
+    background-image: none;
+    font-family: "Font Awesome 6 Free";
+    content: "\f04b";
+}
+.accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed{
+    border-radius: 26px;
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: none;
+    transform: rotate(90deg);
+}
+/* .price-section */
+.prices .heading-section h2{
+    text-align: start;
+    padding: 0;
+}
+.prices .heading-section-p{
+    margin-bottom: 45px;
+}
+.prices .heading-section p{
+    font-weight: 500;
+} 
+.prices-slider .price-img img{
+    display: inline;
+    height: 100px;
+    width: 100px;
+    /* margin-top: 20px;    */
+}
+.p-content{
+    margin-top: 20px;
+    padding-left: 35px;
+
+
+}
+.p-content h3{
+    color: var(--black);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 5px;
+}
+.p-content p{
+    color: #696969;
+    font-size: 16px;
+}
+.img-p-box img{
+    width: 100%;
+    animation: rotation  15s infinite linear ;
+}
+@keyframes rotation{
+    from{
+        transform: rotate(90deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+
+}
+#Competitive-Prices-slider .owl-dots .owl-dot span{
+    height:2px ;
+    width:50px ;
+    border-radius: 30px;
+
+
+}
+#Competitive-Prices-slider .owl-dots{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+#Competitive-Prices-slider .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background-color: orange;
+}
+ 
+
+
+
+
     
  
  

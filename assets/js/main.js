@@ -20,7 +20,7 @@ $('#banner-slider').owlCarousel({
     margin:10,
     nav:false,
     autoplay:true,
- autoplayTimeout:2500,
+ autoplayTimeout:2000,
 autoplayHoverPause:true,
     
     responsive:{
@@ -53,6 +53,24 @@ $('#meal-of-the-day-slider').owlCarousel({
         },
         1000:{
             items:4
+        }
+    }
+})
+
+$('#Competitive-Prices-slider').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    autoplayTimeout:2500,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:1
         }
     }
 })
