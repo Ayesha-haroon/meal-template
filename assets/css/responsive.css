@@ -554,6 +554,15 @@ padding-top: 150px;
 .prices-slider .price-img img{
     margin-top: 40px;
 }
+#Competitive-Prices-slider .owl-dots{
+    align-items: center;
+    justify-content: center;
+}
+/* accordion-2--- */
+.btn-accordion-heading h2{
+    font-size: 24px;
+    margin-top: 30px;
+}
 
 
 
@@ -649,6 +658,11 @@ padding-top: 150px;
     /* top: -250px; */
     left:40px;
 }
+/* accordion-2--- */
+.btn-accordion-heading{
+    font-size: 24px;
+}
+
 
 
 

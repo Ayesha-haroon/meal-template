@@ -588,7 +588,7 @@ small{
     border-radius: 26px;
     margin-bottom: 20px;
 }
- .accordion-button{
+.accordion-button{
     background-color: #F8C78B;
     color: orange ;
     font-weight: 700;
@@ -623,7 +623,7 @@ small{
     font-family: "Font Awesome 6 Free";
     content: "\f04b";
 }
-.accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed{
+ .accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed{
     border-radius: 26px;
 }
 .accordion-button:not(.collapsed)::after{
@@ -692,6 +692,53 @@ small{
 #Competitive-Prices-slider .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
     background-color: orange;
 }
+/* .accordion-2 */
+/* btn-box--- */
+.btn-accor{
+    border-radius: 20px;
+    padding: 20px;
+    width: 75%;
+}
+.btn-accor .nav-link {
+    color: white;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-align: left;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: var(--green);
+    border-radius: 7px;
+}
+/* .accordion-style */
+#accordionExample .accordion-header .accordion-button{
+    background-color: var(--white);
+    border-radius: 50px;
+    color: var(--black);
+    font-weight: 600;
+
+}
+#accordionExample .accordion-header .accordion-button:hover{
+    color: var(--green);
+}
+#accordionExample .accordion-header .accordion-button:hover{
+    background-color: white;
+}
+#accordionExample .accordion-item{
+    border-radius: 20px ;
+    border: 0;
+
+}
+#accordionExample .accordion-button{
+    color: #000;
+
+}
+#accordionExample .accordion-button:hover{
+    color: #00A651;
+}
+
+
+
  
 
 
